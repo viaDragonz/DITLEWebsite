@@ -2526,6 +2526,25 @@ input, select, textarea {
 					border-left: 0;
 				}
 	}
+	/* unvisited link */
+#application:link {
+    color: red;
+}
+
+/* visited link */
+#application:visited {
+    color: green;
+}
+
+/* mouse over link */
+#application:hover {
+    color: hotpink;
+}
+
+/* selected link */
+#application:active {
+    color: blue;
+=======
 * {box-sizing:border-box}
 
 /*Resouces Text*/
